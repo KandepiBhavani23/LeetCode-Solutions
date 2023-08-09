@@ -3,7 +3,7 @@
 const sentence =
 	"The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?";
 
-const string = "   Hello world!               ";
+const string = "   Hello world!              ";
 
 //1. charAt() : The charAt() method of String values returns a new string consisting of the single UTF-16 code unit at the given index.
 
