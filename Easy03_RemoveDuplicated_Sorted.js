@@ -42,6 +42,7 @@ var removeDuplicates = function (nums) {
 	const duplicates = Array.from([...new Set(nums)]);
 	for (let i = 0; i < duplicates.length; i++) {
 		nums[i] = duplicates[i];
+		console.log(nums[i]);
 	}
 	return duplicates.length;
 };
