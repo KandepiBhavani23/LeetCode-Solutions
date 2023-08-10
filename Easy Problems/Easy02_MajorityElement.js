@@ -22,7 +22,7 @@ const nums = [2, 3, 4, 5, 6, 7, 8, 1, 1, 1, 1, 1, 2];
 var majorityElement = function (nums) {
 	let count = {};
 	for (let ele of nums) {
-		count[ele] = (count[ele] || 0) + 1;
+		count[ele] = count[ele] + 1 || 1;
 	}
 	const element = Object.keys(count).reduce((a, b) =>
 		count[a] > count[b] ? a : b
